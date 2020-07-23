@@ -16,15 +16,15 @@
   
 <distributionManagement>
  <repository>
-    <id>releases</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://3.84.131.96:8081/repository/maven-releases/</url>
-  </repository>
-  <snapshotRepository>
-    <id>snapshots</id>
-    <!-- CHANGE HERE by your team nexus server -->
-    <url>http://3.84.131.96:8081/repository/maven-snapshots/</url>
-  </snapshotRepository>
+  <id>laofo521</id>
+  <url>https://pkgs.dev.azure.com/laofo521/_packaging/laofo521/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 </distributionManagement>
 
   <dependencies>
